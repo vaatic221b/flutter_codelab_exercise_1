@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(), 
       child: MaterialApp(
-        title: 'Sucalit Codelab Exercise 1',
+        title: 'Sucalit First Codelab Exercise',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 255, 255, 255)),
